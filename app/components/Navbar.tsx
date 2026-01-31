@@ -36,19 +36,19 @@ export default function Navbar() {
             href="https://wa.me/9666029839?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admission%20at%20Kinder%20Kaly"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-2 py-1.5 md:px-5 md:py-3 rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all font-medium text-xs md:text-base whitespace-nowrap shadow-md hover:shadow-lg"
+            className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-2 py-1.5 md:px-5 md:py-3 rounded-lg hover:from-orange-600 hover:to-yellow-600 transition-all font-medium text-xs md:text-base whitespace-nowrap shadow-md hover:shadow-lg"
           >
-            <span className="hidden sm:inline">Admission Enquiry</span>
-            <span className="sm:hidden">Enquiry</span>
+            <span className="hidden sm:inline">Admissions Open 2026-2027</span>
+            <span className="sm:hidden">2026-2027</span>
           </a>
           <a 
             href="https://wa.me/9666029839?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admission%20at%20Kinder%20Kaly"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-2 py-1.5 md:px-5 md:py-3 rounded-lg hover:from-orange-600 hover:to-yellow-600 transition-all font-medium text-xs md:text-base whitespace-nowrap shadow-md hover:shadow-lg"
+            className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-2 py-1.5 md:px-5 md:py-3 rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all font-medium text-xs md:text-base whitespace-nowrap shadow-md hover:shadow-lg"
           >
-            <span className="hidden sm:inline">Admissions Open 2026-2027</span>
-            <span className="sm:hidden">2026-2027</span>
+            <span className="hidden sm:inline">Admission Enquiry</span>
+            <span className="sm:hidden">Enquiry</span>
           </a>
         </div>
       </div>
