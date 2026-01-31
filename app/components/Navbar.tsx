@@ -3,16 +3,16 @@ import Image from 'next/image';
 
 export default function Navbar() {
   return (
-    <nav className="w-full px-6 py-4 md:px-12 lg:px-20 bg-white">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+    <nav className="w-full px-4 py-3 md:px-12 lg:px-20 md:py-4 bg-white">
+      <div className="max-w-7xl mx-auto flex items-center justify-between gap-2 md:gap-4">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-shrink-0">
           <Image
             src="https://res.cloudinary.com/dmhdhzr6y/image/upload/v1769838619/Screenshot_2026-01-31_at_11.17.15_AM_qr7yqz.png"
             alt="KidsLearn Logo"
             width={132}
             height={44}
-            className="h-auto"
+            className="h-8 w-auto md:h-11"
             priority
           />
         </div>
@@ -31,22 +31,24 @@ export default function Navbar() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex items-center gap-2 md:gap-3">
+        <div className="flex items-center gap-1.5 md:gap-3 flex-shrink-0">
           <a 
             href="https://wa.me/9666029839?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admission%20at%20Kinder%20Kaly"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 py-2.5 md:px-5 md:py-3 rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all font-medium text-sm md:text-base whitespace-nowrap shadow-md hover:shadow-lg"
+            className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-2 py-1.5 md:px-5 md:py-3 rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all font-medium text-xs md:text-base whitespace-nowrap shadow-md hover:shadow-lg"
           >
-            Admission Enquiry
+            <span className="hidden sm:inline">Admission Enquiry</span>
+            <span className="sm:hidden">Enquiry</span>
           </a>
           <a 
             href="https://wa.me/9666029839?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admission%20at%20Kinder%20Kaly"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-4 py-2.5 md:px-5 md:py-3 rounded-lg hover:from-orange-600 hover:to-yellow-600 transition-all font-medium text-sm md:text-base whitespace-nowrap shadow-md hover:shadow-lg"
+            className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-2 py-1.5 md:px-5 md:py-3 rounded-lg hover:from-orange-600 hover:to-yellow-600 transition-all font-medium text-xs md:text-base whitespace-nowrap shadow-md hover:shadow-lg"
           >
-            Admissions Open 2026-2027
+            <span className="hidden sm:inline">Admissions Open 2026-2027</span>
+            <span className="sm:hidden">2026-2027</span>
           </a>
         </div>
       </div>
