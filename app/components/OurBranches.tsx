@@ -1,12 +1,11 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaPhone, FaClock, FaSchool } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaClock, FaSchool } from 'react-icons/fa';
 
 export default function OurBranches() {
   const branches = [
     {
       name: 'Kothapet Branch',
       address: 'Shri Nageshwar Nagar Colony, SRL Colony Main Road No. 6, Nagole to Kothapet Road, Mohan Nagar, Kothapet, Hyderabad – 35, Telangana',
-      phone: '+91 98765 43210',
       hours: 'Mon-Sat: 9:00 AM - 6:00 PM',
       icon: FaSchool,
       bgColor: 'bg-purple-100',
@@ -15,7 +14,6 @@ export default function OurBranches() {
     {
       name: 'New Nagole Branch',
       address: 'H.No: 2-4-44/G/1, Plot No. 21, Road No. 6, New Nagole Colony, Near Skanda Badminton Academy, Hyderabad – 500035, Telangana',
-      phone: '+91 98765 43211',
       hours: 'Mon-Sat: 9:00 AM - 6:00 PM',
       icon: FaSchool,
       bgColor: 'bg-blue-100',
@@ -24,7 +22,6 @@ export default function OurBranches() {
     {
       name: 'Badangpet Branch',
       address: 'H.No: 16-61, Municipal Colony, 746/62, Balaji Nagar, Badangpet, Nadargul, Hyderabad – 500005, Telangana',
-      phone: '+91 98765 43212',
       hours: 'Mon-Sat: 9:00 AM - 6:00 PM',
       icon: FaSchool,
       bgColor: 'bg-orange-100',
@@ -61,10 +58,6 @@ export default function OurBranches() {
                 <p className="flex items-start gap-3">
                   <FaMapMarkerAlt className="text-purple-600 mt-1 flex-shrink-0" />
                   <span className="leading-relaxed">{branch.address}</span>
-                </p>
-                <p className="flex items-center gap-3">
-                  <FaPhone className="text-purple-600 flex-shrink-0" />
-                  <span>{branch.phone}</span>
                 </p>
                 <p className="flex items-center gap-3">
                   <FaClock className="text-purple-600 flex-shrink-0" />
