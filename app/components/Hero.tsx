@@ -37,7 +37,7 @@ export default function Hero() {
                 className="inline-block w-full sm:w-auto bg-gradient-to-r from-purple-600 to-orange-500 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-xl hover:from-purple-700 hover:to-orange-600 transition-all font-semibold text-base sm:text-lg shadow-lg hover:shadow-xl transform hover:scale-105 text-center"
               >
                 <span className="hidden sm:inline">Start Your Kids' Education with Kinder Kaly →</span>
-                <span className="sm:hidden">Start Learning Today →</span>
+                <span className="sm:hidden">Start with Kinder Kaly →</span>
               </a>
             </div>
           </div>
